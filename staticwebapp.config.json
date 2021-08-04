@@ -1,10 +1,5 @@
 {
-  "routes": [
-    {
-      "route": "/api/*",
-      "allowedRoles": ["authenticated"]
-    }
-  ],
+  
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
@@ -15,7 +10,7 @@
               "clientSecretSettingName": "AUTH0_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://aaronpowell.au.auth0.com/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://dev-yfjpt2of.us.auth0.com/.well-known/openid-configuration"
             }
           },
           "login": {
