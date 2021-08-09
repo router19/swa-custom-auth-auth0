@@ -2,7 +2,7 @@
   "routes": [
     {
       "route": "/login",
-      "redirect": "https://login.matrix-uat.ms.com"
+      "redirect": "/.auth/login/aad"
     }
   ],
   "auth": {
