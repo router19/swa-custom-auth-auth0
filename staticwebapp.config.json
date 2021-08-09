@@ -3,6 +3,10 @@
     {
       "route": "/login",
       "redirect": "/.auth/login/aad"
+    },
+    {
+      "route": "/b2c",
+      "redirect": "/.auth/login/aad"
     }
   ],
   "auth": {
@@ -10,12 +14,12 @@
       "customOpenIdConnectProviders": {
         "auth0": {
           "registration": {
-            "clientIdSettingName": "JsZahscv1wtrues0c4dY8pZvw27Ljytw",
+            "clientIdSettingName": "clientId",
             "clientCredential": {
-              "clientSecretSettingName": "Y37GDi-L8cX7b9bl_6HwUNZDzMOuRNTWI9_4V9f9Sn5_lquYrsVL7ugZyi0kQih_"
+              "clientSecretSettingName": "secret"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://dev-yfjpt2of.us.auth0.com/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://login.microsoftonline.com/api-uat.morganstanley.com/.well-known/openid-configuration"
             }
           },
           "login": {
