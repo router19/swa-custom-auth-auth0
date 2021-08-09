@@ -1,5 +1,10 @@
 {
-  
+  "routes": [
+    {
+      "route": "/login",
+      "redirect": "/.auth/login/github"
+    }
+  ],
   "auth": {
     "identityProviders": {
       "customOpenIdConnectProviders": {
@@ -10,7 +15,7 @@
               "clientSecretSettingName": "AUTH0_SECRET"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://dev-yfjpt2of.us.auth0.com/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://ny.matrix-uat.ms.com/.well-known/openid-configuration"
             }
           },
           "login": {
