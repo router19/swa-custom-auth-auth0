@@ -15,7 +15,7 @@
               "clientSecretSettingName": "Y37GDi-L8cX7b9bl_6HwUNZDzMOuRNTWI9_4V9f9Sn5_lquYrsVL7ugZyi0kQih_"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://ny.matrix-uat.ms.com/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://dev-yfjpt2of.us.auth0.com/.well-known/openid-configuration"
             }
           },
           "login": {
