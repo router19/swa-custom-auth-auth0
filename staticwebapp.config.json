@@ -10,9 +10,9 @@
       "customOpenIdConnectProviders": {
         "auth0": {
           "registration": {
-            "clientIdSettingName": "AUTH0_ID",
+            "clientIdSettingName": "JsZahscv1wtrues0c4dY8pZvw27Ljytw",
             "clientCredential": {
-              "clientSecretSettingName": "AUTH0_SECRET"
+              "clientSecretSettingName": "Y37GDi-L8cX7b9bl_6HwUNZDzMOuRNTWI9_4V9f9Sn5_lquYrsVL7ugZyi0kQih_"
             },
             "openIdConnectConfiguration": {
               "wellKnownOpenIdConfiguration": "https://ny.matrix-uat.ms.com/.well-known/openid-configuration"
