@@ -17,10 +17,10 @@ const AuthStuff = () => {
   return (
     <>
       <StaticWebAuthLogins
-        azureAD={false}
-        github={false}
-        twitter={false}
-        customProviders={[{ id: "auth0", name: "Auth0" }]}
+        azureAD={true}
+        github={true}
+        twitter={true}
+        customProviders={[{ id: "projectPackAAD", name: "Auth0" }]}
       />
     </>
   );
