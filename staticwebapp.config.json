@@ -7,6 +7,10 @@
     {
       "route": "/b2c",
       "redirect": "/.auth/login/aad"
+    },
+    {
+      "route": "/static/*",
+      "allowedRoles": ["authenticated"]
     }
   ],
   "auth": {
