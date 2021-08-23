@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "route": "/login",
+      "route": "/aad",
       "redirect": "/.auth/login/aad"
     },
     {
@@ -19,7 +19,7 @@
               "clientSecretSettingName": "secret"
             },
             "openIdConnectConfiguration": {
-              "wellKnownOpenIdConfiguration": "https://msapiuat.b2clogin.com/tfp/msapiuat.onmicrosoft.com/B2C_1A_signup_signin/.well-known/openid-configuration"
+              "wellKnownOpenIdConfiguration": "https://login.microsoftonline.com/8d09f28d-2b54-4761-98f1-de38762cd939/v2.0/.well-known/openid-configuration"
             }
           },
           "login": {
