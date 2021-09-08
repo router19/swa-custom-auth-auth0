@@ -25,7 +25,7 @@
           "login": {
             "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
             "scopes": ["openid", "profile"],
-            "loginParameterNames": ["response_type=code id_token", "resource=e74e9c5e-aca4-4259-8d7e-520f88e58408"]
+            "loginParameterNames": ["response_type=code id_token"]
           }
         }
       }
